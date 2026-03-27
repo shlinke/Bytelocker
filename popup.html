@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2>ByteLocker</h2> 
+    Length of generated password: <input type="text" id="passwordLength">
+    <br>
+    <input type="checkbox" id="Upper-case"> Upper-case (A, B, C, ...)
+    <br>
+    <input type="checkbox" id="Spaces"> Spaces ( )
+    <br>
+    <input type="checkbox" id="Lower-case"> Lower-case (a, b, c, ...)
+    <br>
+    <input type="checkbox" id="Special"> Special (!, $, %, &, ...)
+    <br>
+    <input type="checkbox" id="Digits"> Digits (0, 1, 2, ...)
+    <br>
+    <input type="checkbox" id="Brackets"> Brackets ( (), [], {}, ...)
+    <br>
+    <input type="checkbox" id="Hyphens & Underlines"> Hyphens & Underlines (-, _, )
+    <br>
+    <input type="checkbox" id="Unicode Characters"> Unicode Characters (Ω, あ, Ж, ...)
+    <br>
+    <button id="User Entropy" title="Allows the user to use mouse / keyboard input for more randomized passwords.">Input User Entropy</button>
+    <button id="Generate">Generate Password</button>
+    <br>
+    <script src="popup.js"></script>
+  </body>
+</html>
